@@ -279,7 +279,7 @@ ul {
 }
 @media only screen and (max-width: 991px) {
   .hidden-after-desk {
-    display: none;
+    display: block;
   }
 }
 @media only screen and (max-width: 767px) {
