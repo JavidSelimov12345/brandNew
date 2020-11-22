@@ -139,8 +139,8 @@
      -------------------------------------*/
     var eventCounter = $('.countdown');
     if (eventCounter.length) {
-        eventCounter.countdown('2020/12/03', function(e) {
-            $(this).html(e.strftime("<div class='countdown-section'><h3>%D</h3> <p>day%!D</p> </div><div class='countdown-section'><h3>%H</h3> <p>Hour%!H</p> </div><div class='countdown-section'><h3>%M</h3> <p>Minutes</p> </div><div class='countdown-section'><h3>%S</h3> <p>Second</p> </div>"))
+        eventCounter.countdown('2020/11/28', function(e) {
+            $(this).html(e.strftime("<div class='countdown-section'><h3>%D</h3> <p>gün</p> </div><div class='countdown-section'><h3>%H</h3> <p>Saat</p> </div><div class='countdown-section'><h3>%M</h3> <p>Dəqiqə</p> </div><div class='countdown-section'><h3>%S</h3> <p>saniyə</p> </div>"))
 
         });
     }
