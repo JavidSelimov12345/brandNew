@@ -34,6 +34,9 @@ $(function() {
 	/*========================*/
 	/* 02 - page calculations */
 	/*========================*/
+
+
+
 	function pageCalculations(){
 		winW = $(window).width();
 		winH = $(window).height();
@@ -579,3 +582,6 @@ $(function() {
     });
 
 });
+
+
+

@@ -83,3 +83,6 @@ $(function() {
 	});
 
 });
+$(function() {
+	$('#basicExampleModal').modal('show');
+});
